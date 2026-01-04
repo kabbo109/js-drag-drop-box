@@ -1,0 +1,36 @@
+body{
+  background:#0f172a;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container{
+  display:flex;
+  gap:30px;
+}
+
+#drag{
+  width:120px;
+  height:120px;
+  background:#22c55e;
+  color:#022c22;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:12px;
+  cursor:grab;
+}
+
+#drop{
+  width:140px;
+  height:140px;
+  border:2px dashed #22c55e;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:12px;
+}
